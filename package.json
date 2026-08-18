@@ -1,0 +1,22 @@
+{
+  "name": "notifyhub",
+  "version": "1.0.0",
+  "description": "Unified Notification & Announcement Hub with React, Node.js Express, and Vercel Neon PostgreSQL",
+  "scripts": {
+    "dev:server": "cd server && node --watch src/server.js",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "neon",
+    "postgresql",
+    "notifications",
+    "announcements",
+    "events",
+    "live-timer"
+  ],
+  "author": "",
+  "license": "ISC"
+}
