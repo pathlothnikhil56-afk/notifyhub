@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Unified Notification & Announcement Hub with React, Node.js Express, and Vercel Neon PostgreSQL",
   "scripts": {
+    "build": "cd client && npm install && npm run build",
     "dev:server": "cd server && node --watch src/server.js",
     "dev:client": "cd client && npm run dev",
     "install:all": "cd server && npm install && cd ../client && npm install"
