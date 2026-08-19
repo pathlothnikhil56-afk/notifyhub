@@ -2,11 +2,12 @@
   "name": "notifyhub",
   "version": "1.0.0",
   "description": "Unified Notification & Announcement Hub with React, Node.js Express, and Vercel Neon PostgreSQL",
+  "type": "module",
   "scripts": {
     "build": "cd client && npm install && npm run build",
     "dev:server": "cd server && node --watch src/server.js",
     "dev:client": "cd client && npm run dev",
-    "install:all": "cd server && npm install && cd ../client && npm install"
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
   },
   "keywords": [
     "react",
@@ -19,5 +20,12 @@
     "live-timer"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
 }
